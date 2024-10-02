@@ -1,5 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
-@media only screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
+  body {
+    height: auto !important;
+    width: 400px !important;
+  }
+  .container {
+    height: auto !important;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    transform: translateX(0) !important;
+  }
+  img {
+    height: auto !important;
+    width: 400px !important;
+    border-radius: 0 !important;
+  }
+  .text-control {
+    padding: 15px !important;
+  }
 }
 * {
   padding: 0;
